@@ -1,0 +1,17 @@
+projeto_grafos/
+│
+├── main.py
+├── grafo/
+│   ├── grafo.py
+│   └── grafo_lista_adj.py
+│
+├── busca/
+│   ├── busca.py
+│   └── busca_largura.py
+│
+├── agm/
+│   ├── agm.py
+│   └── kruskal.py
+│
+├── utils/
+│   └── leitor_arquivo.py
