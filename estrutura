@@ -15,3 +15,15 @@ projeto_grafos/
 │
 ├── utils/
 │   └── leitor_arquivo.py
+        └── Vou criar uma função para isso
+            recebe caminho do arquivo
+            ↓
+            abre o arquivo
+            ↓
+            lê primeira linha
+            ↓
+            cria o grafo
+            ↓
+            lê arestas
+            ↓
+            retorna o grafo pronto

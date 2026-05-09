@@ -1,4 +1,5 @@
 from grafo.grafo_lista_adj import GrafoListaAdjacencia
+from utils.leitor_arquivo import ler_arquivo
 
 def main():
     
@@ -16,6 +17,13 @@ def main():
     print("\n=== INFORMAÇÕES DO GRAFO ===")
     grafo.info()
 
+    print("\n=== TESTANDO O LEITOR DE ARQUIVO ===")
+    
+    caminho = "entrada.txt"
+    grafoLeitor = ler_arquivo(caminho)
+
+    grafoLeitor.Print()
+    grafoLeitor.info()
 
 if __name__ == "__main__":
     main()
